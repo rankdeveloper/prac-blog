@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  align-items: center;
+  background-color: steelblue;
+  color: white;
+  box-shadow: 0 0 4px rgba(0 0 0/56%);
+  position: fixed;
+  width:100%;
+  margin:0;
+  z-index: 1;
+
+}
+
+.logo {
+  padding: 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  gap:2rem;
+
+}
+
+
+
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+}

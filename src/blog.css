@@ -1,0 +1,64 @@
+.grid-container {
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: 2rem 7rem;
+    margin:6rem 7rem;
+    gap: 2rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.grid-item {
+    padding: 10px 15px;
+    box-shadow: 2px 3px 4px rgba(0 0 0 /56%);
+    border: 1px solid steelblue;
+    border-radius: .5rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+}
+
+.btns {
+    display: flex;
+    margin-top:1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+button {
+    outline: none;
+    border: 1px solid black;
+    font-weight: 500;
+}
+.btns p{
+    width: 5rem;
+    height:2rem;
+    text-align: center;
+}
+
+.t-likes {
+    color: steelblue;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:400px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 2rem 1rem;
+    }
+
+    .title {
+        background-color: steelblue;
+        color: wheat;
+        border-radius: .5rem;
+        padding: 3px;
+
+    }
+}
